@@ -1,4 +1,4 @@
-html, body{
+body{
     background-color: #0E0E0E;
     color: #fff;
     font-family: Arial, 'Roboto Condensed', sans-serif;
@@ -205,7 +205,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-     z-index: 2;
 }
 
 .seasons__item:hover .seasons__link {
@@ -664,7 +663,7 @@ a {
 @media (max-width: 414px) {
 
     .container {
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .about__list {
@@ -674,11 +673,7 @@ a {
     .video__label {
         padding-top: 65vh;
     }
-
-    .seasons__item {
-        height: 203px;
-    }
-
+   
     .heroes__name {
         font-size: 36px;
         line-height: 52px;
@@ -690,6 +685,18 @@ a {
     }
 }
 
+@media (max-width: 340px) {
 
+
+    .seasons__item {
+       
+        height: 190px;
+    }
+
+    .seasons__link {
+        padding: 12px 12px;
+    }
+
+}
 
 /*Start madia*/
