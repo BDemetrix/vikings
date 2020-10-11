@@ -407,9 +407,24 @@ a {
         top: -6px;
     }
 
+    .video__text {
+        font-size: 68px;
+        line-height: 80px;
+    }
+
 }
 
 @media (max-width: 1200px) {
+
+    .video__text {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .video__text span {
+        padding-right: 260px;
+    }
+
     .heroes__inner {
         display: block;
     }
@@ -432,6 +447,9 @@ a {
 
 @media (max-width: 1088px) {
 
+    .video__text span {
+        padding-right: 150px;
+    }
     .seasons__item {
         height: 340px;
     }
@@ -442,6 +460,23 @@ a {
     .page-logo{
         display: none;
     }
+
+
+    .video__text span {
+        padding-right: 88px;
+    }
+
+    .video__btn {
+        line-height: 80px;
+        margin-top: 20px;
+        padding-left: 92px;
+    }
+    .video__btn::before {
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+    }
+
 }    
 
 @media (max-width: 770px){
@@ -470,11 +505,18 @@ a {
     }
 
     .video__text span {
-        padding-left: 200px;
+        
     }
 
     .video__btn {
-        
+        line-height: 50px;
+        margin-top: 20px;
+        padding-left: 60px;
+    }
+    .video__btn::before {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
     }
 
     .seasons__inner {
@@ -602,11 +644,21 @@ a {
         left: 0;
     }
 
+    .video__text span {
+        padding-right: 0;
+    }
+
+    .video__btn {
+        margin-top: 10px;
+        font-size: 14px;
+    }
 
     .page-logo{
         display: block;
         top: 22px;
     }
+
+
 }
 
 @media (max-width: 414px) {
@@ -617,6 +669,10 @@ a {
 
     .about__list {
         width: 250px;
+    }
+
+    .video__label {
+        padding-top: 65vh;
     }
 
     .seasons__item {
