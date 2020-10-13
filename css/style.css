@@ -543,13 +543,16 @@ a {
     }
 
 
+    .video__label {
+        padding-top: 32vh;
+    }
     .video__text span {
         padding-right: 88px;
     }
 
     .video__btn {
         line-height: 80px;
-        margin-top: 20px;
+        margin-top: 15px;
         padding-left: 92px;
     }
     .video__btn::before {
