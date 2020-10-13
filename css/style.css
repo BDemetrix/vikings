@@ -546,6 +546,9 @@ a {
         padding-top: 30vh;
     }
 
+    .video__label {
+        padding-top: 32vh;
+    }
     .video__text span {
         padding-right: 88px;
     }
