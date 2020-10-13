@@ -4,9 +4,6 @@ $(function(){
         if ($('.season-info')) {
             $('.season-info').toggleClass('season-info--activ');
             $('.page - logo').toggleClass('page-logo--activ')
-            $('.menu').toggleClass('menu--activ');
-            $('.menu__list').toggleClass('menu__list--activ');
-            return false;
         }
         $('.header').toggleClass('header--activ');
         $('.logo').toggleClass('logo--activ');
@@ -14,14 +11,14 @@ $(function(){
         $('.menu__list').toggleClass('menu__list--activ');
     })
 
-    /*
+    
     $('[data-fancybox]').fancybox({
         youtube: {
             controls: 0,
             showinfo: 0
         }
     });
-    */
+    
 
     $('.heroes__slider-img').slick({
         slidesToShow: 1,
